@@ -1,0 +1,63 @@
+package com.syntax.class06;
+
+import java.util.Scanner;
+
+public class SwitchCaseIntro {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter day number");
+		int day=scan.nextInt();
+		String myDay;
+		
+		
+		if(day==1) {
+			myDay="Monday";
+	}else if(day==2) {
+		myDay="Tuesday";
+	}else if(day==3) {
+		myDay="Wednesday";
+	}else if(day==4) {
+		myDay="Thursday";
+	}else if(day==5) {
+		myDay="Friday";
+	}else if(day==6) {
+		myDay="Saturday";
+	}else if(day==7) {
+		myDay="Sunday";
+	}else {
+		myDay="invalid day";}
+		
+		System.out.println("------------same EXAMPLE using SWITCH CASE-------------");
+		String today;
+		switch (day) { //data type of VAR must match data type of cases
+		
+		case 1:
+			today="Monday";
+			break;
+		case 2: 
+			today="Tuesday";
+			break;
+		case 3:
+			today="Wednesday";
+			break;
+		case 4:
+			today="Thursday";
+			break;
+		case 5:
+			today="Friday";
+			break;
+		case 6:
+			today="Saturday";
+			break;
+		case 7:
+			today="Sunday";
+			break;
+			default:
+				today="Invalid day";
+				break;    //optional because it is LAST statement in SWITCH BLOCK
+		}
+	}
+}
+
