@@ -17,10 +17,10 @@ public class TaskBoolean {
 		  }else {
 			
 			System.out.println("I don't need a day off any more");
-		workDay=false;
+		workDay=false; //to stop infinite loop
 	}
 		  
-	day++;	  
+	day++;	  //and increase a day
 		  
 	}}
 
