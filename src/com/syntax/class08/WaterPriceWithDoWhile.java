@@ -2,7 +2,7 @@ package com.syntax.class08;
 
 import java.util.Scanner;
 
-public class RecapWithDoWhile {
+public class WaterPriceWithDoWhile {
 
 	public static void main(String[] args) {
 		Scanner input;

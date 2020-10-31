@@ -16,8 +16,10 @@ public class TaskBoolean {
 		  System.out.println("I need a day off");
 		  }else {
 			
-			System.out.println("I don't need a day off any more");
-		workDay=false; //to stop infinite loop
+			System.out.println("It is weekend and I am off");
+			break; //here to stop the Loop
+			
+		// or   workDay=false; //to stop infinite loop
 	}
 		  
 	day++;	  //and increase a day
