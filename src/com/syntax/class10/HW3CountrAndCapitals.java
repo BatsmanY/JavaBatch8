@@ -4,6 +4,7 @@ public class HW3CountrAndCapitals {
 
 	public static void main(String[] args) {
 		// only if the same order(sequence) of countr. and cap., otherwise poidet ne tak -))
+		//best will be to use SWITCH (whatever sequence then)
 		
 		String[] countries= {"USA","Ukraine","Canada"};
 		String[] capitals= {"DC","Kiev","Ottawa"}; 
