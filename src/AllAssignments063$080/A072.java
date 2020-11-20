@@ -8,6 +8,7 @@ public class A072 {
 		// $  $
 		// $  $
 		// $$$$
+        //test comment
 		
 		
 		for (int i=1; i<=4; i++)
